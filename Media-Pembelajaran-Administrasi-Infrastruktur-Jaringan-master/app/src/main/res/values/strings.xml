@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Media AIJ</string>
+
+    <array name="gambarKd">
+        <item>@drawable/ic_book</item>
+        <item>@drawable/ic_books</item>
+        <item>@drawable/ic_bookss</item>
+        <item>@drawable/ic_tablet</item>
+        <item>@drawable/ic_audio_book</item>
+        <item>@drawable/ic_lesson</item>
+        <item>@drawable/ic_lesson1</item>
+        <item>@drawable/ic_file</item>
+        <item>@drawable/ic_online</item>
+    </array>
+
+    <array name="kd">
+        <item>K.D 3.1</item>
+        <item>K.D 3.2</item>
+        <item>K.D 3.3</item>
+        <item>K.D 3.4</item>
+        <item>K.D 3.5</item>
+        <item>K.D 3.6</item>
+        <item>K.D 3.7</item>
+        <item>K.D 3.8</item>
+        <item>K.D 3.9</item>
+    </array>
+
+    <array name="judulKd">
+        <item>Pengertian Virtual Local Area Networt (VLAN)</item>
+        <item>Permasalahan dan Perbaikan Konfigurasi VLAN</item>
+        <item>Konsep Routing</item>
+        <item>Mengevaluasi routing statis</item>
+        <item>Perbaikan Permasalahan Routing Statis</item>
+        <item>Pengenalan Routing Dinamis</item>
+        <item>Mengevaluasi permasalahan routing dinamis</item>
+        <item>Internet Gateway (NAT)</item>
+        <item>Teknik dalam Memperbaiki Internet Gateway (NAT)</item>
+    </array>
+
+    <array name="pdfKd">
+        <item>kd31.pdf</item>
+        <item>kd32.pdf</item>
+        <item>kd33.pdf</item>
+        <item>kd34.pdf</item>
+        <item>kd35.pdf</item>
+        <item>kd36.pdf</item>
+        <item>kd37.pdf</item>
+        <item>kd38.pdf</item>
+        <item>kd39.pdf</item>
+    </array>
+
+
+</resources>

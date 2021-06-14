@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/warna4"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SoalPageActivity">
+
+
+        <TextView
+            android:id="@+id/judul_video_tutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="@string/latihan_soal"
+            android:textColor="@color/tulisan"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:paddingVertical="10dp"
+            android:background="@drawable/rectangle">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_pertanyaan"
+                    style="@style/TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="10dp"
+                    android:textSize="@dimen/_13sdp"
+                    android:fontFamily="@font/quicksand_medium"
+                    />
+
+            </ScrollView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_220sdp">
+
+                <RadioGroup
+                    android:id="@+id/opsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/tv_a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Java" />
+
+                    <RadioButton
+                        android:id="@+id/tv_b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kotlin" />
+
+                    <RadioButton
+                        android:id="@+id/tv_c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C++" />
+
+                    <RadioButton
+                        android:id="@+id/tv_d"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C++" />
+
+                    <RadioButton
+                        android:id="@+id/tv_e"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C++" />
+                </RadioGroup>
+             </ScrollView>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginBottom="@dimen/_150sdp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_back_soal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:text="@string/back_soal" />
+
+        <Button
+            android:id="@+id/btn_next_soal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:text="@string/next_soal" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

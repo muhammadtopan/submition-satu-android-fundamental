@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Administrasi Sistem Jaringan</string>
+    <string name="GOOGLE_API_KEY">AIzaSyCcGtBq-mppxVhU8o6VAz6NiHkS1cKhx2A</string>
+    <string name="image_splash_screen">image splash screen</string>
+    <string name="administrasi_sistem_jaringan">ADMINISTRASI SISTEM JARINGAN</string>
+    <string name="silabus">SILABUS</string>
+    <string name="topik_silabus">Silabus</string>
+    <string name="materi">Materi</string>
+    <string name="jobsheet">Jobsheet</string>
+    <string name="video_tutorial">Video Tutorial</string>
+    <string name="about">About</string>
+    <string name="judul_materi">JUDUL</string>
+    <string name="topik_materi">Topik Materi</string>
+    <string name="topik_latihan_soal">Topik Latihan Soal</string>
+    <string name="topik_video_tutorial">Topik Video Tutorial</string>
+    <string name="topik_jobsheet">Topik Jobsheet</string>
+    <string name="teulisan_about">Tutorial Membuat Aplikasi Android PDF Reader Dengan Android Studio
+                                     Android
+                                    Kali ini kita akan membuat aplikasi PDF Reader menggunakan salah satu library PDF viewer yang ada di AndroidPdfViewer.
+                                    Konsep aplikasi :
+
+                                    ListView sebagai menu utama
+                                    Setiap menu item akan membuka file pdf dari folder assets
+                                    Double tap back button untuk exit aplikasi
+
+                                    Ok, kita mulai
+                                    Siapkan 3 dokumen PDF dengan ukuran file kecil agar ukuran apk tidak terlalu besar. Untuk file PDF yang ukurannya besar dapat di compress di sini "iLovePDF
+
+                                    1. Buka android studio dan buat project baru, sesuaikan nama package sesuai keinginan
+
+                                    2. Di folder app>main buat folder assets dan tempatkan 3 file pdf yang sudah disipkan tadi. Dalam project ini saya namai dengan: sample_1.pdf, sample_2.pdf, sample_3.pdf
+
+                                    3. Buka Gradle Scripts>build:gradle (Module:app)
+                                    masukkan code berikut:
+                                        Tutorial Membuat Aplikasi Android PDF Reader Dengan Android Studio
+                                     Android
+                                    Kali ini kita akan membuat aplikasi PDF Reader menggunakan salah satu library PDF viewer yang ada di AndroidPdfViewer.
+                                    Konsep aplikasi :
+
+                                    ListView sebagai menu utama
+                                    Setiap menu item akan membuka file pdf dari folder assets
+                                    Double tap back button untuk exit aplikasi
+
+                                    Ok, kita mulai
+                                    Siapkan 3 dokumen PDF dengan ukuran file kecil agar ukuran apk tidak terlalu besar. Untuk file PDF yang ukurannya besar dapat di compress di sini "iLovePDF
+
+                                    1. Buka android studio dan buat project baru, sesuaikan nama package sesuai keinginan
+
+                                    2. Di folder app>main buat folder assets dan tempatkan 3 file pdf yang sudah disipkan tadi. Dalam project ini saya namai dengan: sample_1.pdf, sample_2.pdf, sample_3.pdf
+
+                                    3. Buka Gradle Scripts>build:gradle (Module:app)
+                                    masukkan code berikut:</string>
+    <string name="jobsheet_page_activity">Jobsheet Page Activity</string>
+    <string name="video_page_activity">Video Page Activity</string>
+    <string name="caption">Caption</string>
+    <string name="latihan_soal">Latihan Soal</string>
+    <string name="back_soal">BACK</string>
+    <string name="next_soal">NEXT</string>
+    <string name="welcome">Welcome!</string>
+    <string name="silahkan_log_in_untuk_mulai_belajar">Silahkan Log In untuk mulai belajar</string>
+    <string name="username">Username</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="log_in">Log In</string>
+    <string name="password">Password</string>
+</resources>

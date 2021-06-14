@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btn_item_judul_materi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:text="@string/judul_materi"
+            android:textColor="@color/tulisan"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:backgroundTint="@color/warna4"
+            />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
